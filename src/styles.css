@@ -29,6 +29,14 @@ p {
   font-size: 15px;
   line-height: 30px;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 70px;
+  }
+  p {
+    text-align: center;
+  }
+}
 
 .hero {
   background-color: var(--primary-color);
@@ -82,21 +90,33 @@ p {
 }
 .content h1 {
   font-size: 40px;
-  color: var(--button-color);
 }
 .content h3 {
   font-family: var(--default-font-family);
   font-size: 23px;
-  color: var(--button-color);
 }
 .content p {
   font-size: 14px;
 }
-@media (max-width: 900px) {
-  h1 {
-    font-size: 70px;
-  }
-  p {
-    text-align: center;
-  }
+.contact-container {
+  background-color: var(--primary-color);
+}
+.contact-content h1 {
+  font-size: 40px;
+  line-height: 160px;
+}
+.contact-content h3 {
+  font-size: 25px;
+  text-align: center;
+  color: var(--button-color);
+}
+.network {
+  display: flex;
+  justify-content: center;
+
+}
+.contact-content a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
