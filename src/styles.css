@@ -38,15 +38,12 @@ nav li {
   line-height: 42px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 70px;
   }
   p {
     text-align: center;
-  }
-  .bar-navigation {
-    align-items: center;
   }
 }
 
@@ -65,22 +62,30 @@ nav li {
   font-size: 24px;
   line-height: 2em;
 }
+
 .btn-branding {
+  background-color: var(--button-color);
+  border: 1px solid var(--button-color);
+  border-radius: 4px;
+  padding: 13px 20px;
+  font-size: 18px;
+  display: flex;
+  margin: 0 auto;
+}
+.btn-branding a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.btn-branding-outline {
   background-color: var(--button-color);
   color: var(--secondary-color);
   border-radius: 4px;
   padding: 13px 20px;
   font-size: 18px;
 }
-.btn-branding-outline {
-  background-color: var(--primary-color);
-  color: var(--button-color);
-  border: 1px solid var(--button-color);
-  border-radius: 4px;
-  padding: 15px 30px;
-  font-size: 18px;
+.work {
+  text-align: center;
 }
-
 .about-section {
   padding: 30px 20px;
 }
