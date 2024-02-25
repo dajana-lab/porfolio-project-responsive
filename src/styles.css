@@ -15,7 +15,7 @@ h6 {
   font-weight: bold;
 }
 h1 {
-  font-size: 86px;
+  font-size: 70px;
 }
 h2 {
   font-size: 50px;
@@ -40,7 +40,7 @@ nav li {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   p {
@@ -114,7 +114,7 @@ nav li {
   background-color: var(--primary-color);
 }
 .content h1 {
-  font-size: 47px;
+  font-size: 60px;
   color: var(--button-color);
 }
 .content h3 {
@@ -134,7 +134,7 @@ nav li {
   background-color: var(--primary-color);
 }
 .contact-content h1 {
-  font-size: 47px;
+  font-size: 60px;
   line-height: 150px;
   color: var(--button-color);
 }
