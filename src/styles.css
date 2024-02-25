@@ -13,7 +13,6 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
-  color: black;
 }
 h1 {
   font-size: 86px;
@@ -34,7 +33,7 @@ nav {
 nav li {
   display: inline;
   list-style: none;
-  color: #6c63ff;
+  color: var(--button-color);
   line-height: 42px;
 }
 
@@ -45,6 +44,9 @@ nav li {
   p {
     text-align: center;
   }
+}
+.front-end {
+  color: var(--button-color);
 }
 
 .hero {
@@ -151,14 +153,13 @@ nav li {
   font-weight: bold;
 }
 .fa-sharp {
-  color: black;
+  color: var(--button-color);
   font-size: 20px;
 }
 .fa-brands {
-  color: black;
+  color: var(--button-color);
   font-size: 20px;
 }
-
 .container {
   width: 100%;
 }
